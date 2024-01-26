@@ -1,0 +1,219 @@
+.hero {
+  padding: 152px 0;
+  background-image: url("../../images/Bitmap.png");
+  background-size: cover;
+  overflow-x: hidden;
+}
+.hero__main {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+.hero__main::before {
+  content: "";
+  position: absolute;
+  top: 201px;
+  left: calc(50% - 446px);
+  width: 203px;
+  height: 16px;
+  background-image: url("../../images/Path-2.svg");
+  background-repeat: no-repeat;
+  background-size: 203px 16px;
+}
+.hero__main::after {
+  content: "";
+  position: absolute;
+  top: 201px;
+  left: calc(50% + 300px);
+  width: 452px;
+  height: 151px;
+  background-image: url("../../images/Group-8.svg");
+  background-repeat: no-repeat;
+  background-size: 452px 151px;
+}
+.hero__main-heading {
+  font-family: monospace;
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -2.5px;
+  margin: 0;
+}
+.hero__title-box {
+  position: relative;
+  margin-left: 65px;
+}
+.hero__title-box::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: calc(50% - 312px);
+  width: 94px;
+  height: 1px;
+  background: #d9d9d9;
+}
+.hero__title-box-text {
+  width: 100%;
+  max-width: 405px;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.hero__title-box-link {
+  max-width: 180px;
+  width: 100%;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 167%;
+  background: #fcb72b;
+  padding: 14px 39px;
+  text-decoration: none;
+  border: 3px solid transparent;
+}
+
+.hero__span-box {
+  position: absolute;
+  top: 530px;
+  left: calc(50% + 560px);
+  width: 234px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__span {
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+.hero__span-bgc {
+  background-color: #fff;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 1040px) {
+  .hero {
+    padding-bottom: 190px;
+  }
+  .hero__main {
+    &::after {
+      top: 366px;
+      left: calc(50% - 500px);
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 137px;
+    padding-bottom: 217px;
+    background-position: calc(50% - 130px);
+    overflow-x: hidden;
+  }
+  .hero__main {
+    width: 100%;
+    max-width: 573px;
+    text-align: center;
+    margin: 0 auto;
+    &::before {
+      content: none;
+    }
+    &::after {
+      top: 366px;
+      left: calc(50% - 500px);
+    }
+  }
+  .hero__main-heading {
+    width: 100%;
+    max-width: 565px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Space Mono";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  }
+  .hero__title-box {
+    width: 100%;
+    max-width: 573px;
+    margin-left: 0;
+    text-align: center;
+    &::before {
+      content: none;
+    }
+  }
+  .hero__title-box-text {
+    width: 100%;
+    max-width: 573px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+    margin-left: 0;
+  }
+  .hero__title-box-link {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .hero__main-heading {
+    font-size: 44px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .hero {
+    padding-top: 115px;
+    padding-bottom: 230px;
+    overflow-x: hidden;
+  }
+  .hero__main {
+    max-width: 440px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .hero__main-heading {
+    width: 100%;
+    max-width: 376px;
+    color: #fff;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1.786px;
+  }
+  .hero__title-box-text {
+    color: #fff;
+    margin: 0 auto;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+    max-width: 376px;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,51 @@
+.hero1 {
+    position: relative;
+    background-image: url('../../images/Bitmap\ \(3\).png');
+    background-size: cover;
+    padding: 72px 0;
+}
+
+.about-hero__main {
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-hero__title {
+    color: #FFF;
+    font-family: monospace;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1150px) {
+    .about-hero__title {
+        margin-left: 175px;
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    .about-hero__title {
+        margin: 0;  
+    }
+
+    .about-hero__main {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .about-hero__title {
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.786px;
+        font-family: monospace;
+    }
+}
