@@ -1,0 +1,127 @@
+.our-values {
+    
+}
+.our-values__inner {
+}
+.our-values__title {
+    margin-bottom: 25px;
+    color: #495567;
+text-align: center;
+font-family: "Space Mono";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.our-values__list {
+    display: flex;
+    gap: 30px;
+}
+.our-values__list_inner {
+    list-style: none;
+    max-width: 350px;
+    width: 100%;
+}
+.list_inner__img {
+    max-width: 350px;
+    width: 100%;
+}
+.list_inner__title {
+    margin-top: 46px;
+    margin-bottom: 27px;
+    color: #495567;
+text-align: center;
+font-family: "Space Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+}
+.list_inner__text {
+    color: #939CAA;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+}
+
+.our-box {
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .our-values__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-values__list_inner {
+        max-width: 457px;
+        width: 100%;
+    }
+
+
+}
+@media only screen and (max-width:400px) {
+    .our-values__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-values__list_inner {
+        max-width: 371px;
+        width: 100%;
+    }
+
+    .list_inner__img {
+     max-width: 240px;
+     width: 100%;   
+    }
+}
+@media only screen and (max-width:375px) {
+    .our-values__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-values__list_inner {
+        max-width: 371px;
+        width: 100%;
+    }
+
+    .list_inner__img {
+     max-width: 240px;
+     width: 100%;   
+    }
+}
+@media only screen and (max-width:350px) {
+    .our-values__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-values__list_inner {
+        max-width: 371px;
+        width: 100%;
+    }
+
+    .list_inner__img {
+     max-width: 240px;
+     width: 100%;   
+    }
+}

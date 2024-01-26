@@ -1,0 +1,144 @@
+.faqs {
+    overflow-x: hidden;
+    margin-top: 200px;
+    padding: 50px;
+}
+.faqs__inner {
+}
+
+.faqs__title {
+    color: #495567;
+font-family: "Space Mono";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+
+.faqs__list {
+   
+}
+.faqs__list_inner {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+
+}
+.titlebox {
+    text-align: start;
+}
+.faqs__list_inner__title {
+    margin-top: 50px;
+    color: #495567;
+    font-family: "Space Mono";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    letter-spacing: -1.786px;
+    text-align: start;
+    margin-right: 20px;
+
+    &:nth-child(2) {
+        margin-top: 450px;
+    }
+}
+
+.faqs__list_inner__right {
+    
+position: relative;
+    &:nth-child(1):before {
+        position: absolute;
+        width: 16px;
+        height: 8px;
+        content: "";
+        background-image: url('../../images/tepa.svg');
+        top: 10px;
+        left: calc(50% + 10px);
+    }
+
+
+    
+}
+.faqs__list_inner__right-mainbox {
+    max-width: 730px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #F2F5F9;
+    padding: 32px 40px;
+    position: relative;
+    margin-top: 64px;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 16px;
+        height: 8px;
+        top: 40px;
+        left: calc(50% + 300px);
+        background-image: url('../../images/tepa.svg');
+        background-repeat: no-repeat;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: #FFF4DF;
+    }
+}
+.faqs__list_inner__right-box {
+    margin-bottom: 16px;
+    background-color: #F2F5F9;
+    padding: 32px 40px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #FFF4DF;
+      }
+
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 16px;
+        height: 8px;
+        left: calc(50% + 300px);
+        background-image: url('../../images/tepa.svg');
+        transform: rotate(180deg);
+        background-repeat: no-repeat;
+    }
+
+}
+.faqs__list_inner__right-title {
+    color: #495567;
+font-family: "Space Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+    margin-bottom: 24px;
+}
+.faqs__list_inner__right-text {
+    color: #495567;
+font-family: "Lexend Deca";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+}
+
+@media only screen and (max-width:768px) {
+    .faqs__list_inner__title {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.faqs__list_inner {
+    flex-direction: column;
+}
+}
