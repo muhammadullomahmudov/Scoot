@@ -2417,6 +2417,10 @@ img {
   line-height: 25px; /* 166.667% */
 }
 
+.imgbox {
+  text-align: end;
+}
+
 @media only screen and (max-width: 868px) {
   .faqs__list_inner__title {
     text-align: center;
@@ -2425,6 +2429,28 @@ img {
   }
   .faqs__list_inner {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .faqs__title {
+    font-size: 32px;
+  }
+  .faqs__list_inner__title {
+    font-size: 24px;
+  }
+  .faqs__list_inner__right-box {
+    max-width: 311px;
+    width: 100%;
+  }
+  .faqs__list_inner__right-mainbox {
+    max-width: 311px;
+    width: 100%;
+  }
+  .faqs__list_inner__right-title {
+    font-size: 18px;
+  }
+  .faqs__list_inner__right-text {
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 402px) {
