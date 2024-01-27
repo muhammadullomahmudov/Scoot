@@ -1,4 +1,4 @@
-odamFaroxddin = document.querySelector('.site-header__main-burger-btn');
+odamFaroxddin = document.querySelector('.burger-btn');
 odamZubayr = document.querySelector('.site-header__list');
 elBody = document.querySelector('body');
 
