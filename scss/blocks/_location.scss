@@ -1,0 +1,48 @@
+.location-map {
+    margin-top: 100px;
+}
+.location-map__inner {
+}
+.location-map__img {
+    width: 100%;
+}
+
+
+
+
+.section-main {
+}
+.section-main__inner {
+    display: flex;
+
+
+
+}
+.main__box-title {
+    color: #495567;
+font-family: "Space Mono";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+}
+.main__box-text {
+    color: #939CAA;
+font-family: "Lexend Deca";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+}
+.main__box-link {
+    color: #FFF;
+text-align: center;
+font-family: "Space Mono";
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 166.667% */
+padding: 14px 43px;
+background: #FCB72B;
+}

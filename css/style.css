@@ -2852,7 +2852,7 @@ img {
   color: #fff;
   text-decoration: none;
   transition: all 0.5s ease;
-  padding: 18px 50px;
+  padding: 14px 70px;
   border: 3px solid #FCB72B;
   background-color: #FCB72B;
 }
@@ -2981,4 +2981,46 @@ img {
     text-align: center;
     font-size: 15px;
   }
+}
+.location-map {
+  margin-top: 100px;
+}
+
+.location-map__img {
+  width: 100%;
+}
+
+.section-main__inner {
+  display: flex;
+}
+
+.main__box-title {
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  letter-spacing: -2.143px;
+}
+
+.main__box-text {
+  color: #939CAA;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+
+.main__box-link {
+  color: #FFF;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  padding: 14px 43px;
+  background: #FCB72B;
 }/*# sourceMappingURL=style.css.map */
