@@ -2881,7 +2881,7 @@ img {
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 554px) {
   .history__list {
     align-items: center;
     justify-content: center;

@@ -29,3 +29,6 @@ img {
   vertical-align: middle;
   object-fit: contain;
 }
+::selection {
+  background-color: #ccc;
+}
