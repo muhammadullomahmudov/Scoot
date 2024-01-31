@@ -124,7 +124,7 @@
     .history-list__inner {
         display: flex;
         max-width: 311px;
-        width: 100%;
+        max-width: 100%;
         flex-direction: column;
         text-align: center;
         justify-content: center;
