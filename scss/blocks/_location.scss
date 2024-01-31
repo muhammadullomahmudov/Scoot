@@ -1,5 +1,5 @@
 .location-map {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .location-map__inner {
 }
@@ -9,16 +9,20 @@
 
 
 
-
-.section-main {
+.section-comeback {
+    margin-top: 40px;
 }
-.section-main__inner {
+
+.comback__inner {
+    // gap: 100px;
     display: flex;
-
-
-
+    align-items: center;
+    max-width: 1111px;
+    width: 100%;
 }
-.main__box-title {
+.comeback__title {
+    max-width: 351px;
+width: 100%;
     color: #495567;
 font-family: "Space Mono";
 font-size: 48px;
@@ -26,23 +30,116 @@ font-style: normal;
 font-weight: 700;
 line-height: 48px; /* 100% */
 letter-spacing: -2.143px;
+
 }
-.main__box-text {
+.comeback__text {
     color: #939CAA;
 font-family: "Lexend Deca";
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 25px; /* 166.667% */
+margin-left: 30px;
+margin-right: 100px;
 }
-.main__box-link {
-    color: #FFF;
+.comeback__link {
+
+    display: inline-block;
+    color: #FCB72B;
 text-align: center;
 font-family: "Space Mono";
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
 line-height: 25px; /* 166.667% */
-padding: 14px 43px;
-background: #FCB72B;
+padding: 14px 25px;
+border: 3px solid #FCB72B;
+text-decoration: none;
+max-width: 180px;
+width: 100%;
+}
+
+.location-map__mobile-img {
+    display: none;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.boxnone {
+    margin-top: 40px;
+    display: none;
+}
+.boxnone__inner {
+
+}
+.boxnone__list {
+}
+.boxnone__list_inner {
+list-style: none;
+padding: 22px;
+text-align: center;
+color: #495567;
+text-align: center;
+font-family: "Space Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+background: rgba(252, 183, 43, 0.15);
+margin-bottom: 16px;
+}
+
+
+@media only screen and (max-width:800px) {
+    .comback__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .comeback__title {
+        max-width: 457px;
+        width: 100%;
+        text-align: center;
+    }
+    .comeback__text {
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:400px) {
+    .location-map__mobile-img {
+        display: block;
+        
+    }
+
+    .location-map__img {
+        display: none;
+    }
+
+    .boxnone {
+        display: block;
+    }
+
+    .comback__inner {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .comeback__text {
+        width: 100%;
+    }
 }
